@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.jenkov</groupId>
+
+    <artifactId>hello-world</artifactId>
+
+    <version>1.0.0</version>
+<distributionManagement>
+    	<repository>
+          	<id>Repo-R</id>
+      		<name>Repo-R</name>
+      		<url>http://ip-172-31-42-148.ap-south-1.compute.internal:8081/nexus/content/repositories/Repo-R/</url>
+    	</repository>
+    	<snapshotRepository>
+      		<id>Repo-S</id>
+      		<name>Repo-S</name>
+      		<url>http://ip-172-31-42-148.ap-south-1.compute.internal:8081/nexus/content/repositories/Repo-S/</url>
+        </snapshotRepository>
+     </distributionManagement>
+</project>
